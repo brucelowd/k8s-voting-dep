@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       name: worker-app-deploy
-      app: worker-app-deploy
+      app: demo-voting-app
   template:
     metadata:
       name: worker-app-deploy
