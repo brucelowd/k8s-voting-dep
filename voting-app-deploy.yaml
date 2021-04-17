@@ -9,7 +9,8 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: voting-app-deploy
+      name: voting-app-deploy
+      app: demo-voting-app
   template:  
     metadata:
       name: voting-app-deploy
