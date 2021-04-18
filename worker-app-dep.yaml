@@ -9,8 +9,8 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: worker-deploy
-      app: worker-app-deploy
+      name: worker-app-deploy
+      app: demo-voting-app
   template:
     metadata:
       name: worker-app-deploy
